@@ -3,7 +3,7 @@ import project2 from '../asset/garden control.png'
 import project3 from '../asset/comp_arch.png'
 
 
-export const HERO_CONTENT = `An Electrical and Computer Engineering student at Addis Ababa University with strong academic standing.
+export const HERO_CONTENT = `An Electrical and Computer Engineering graduate from Addis Ababa University with strong academic standing.
 A highly motivated enthusiast and a conscientious team worker who understands the importance of carrying
 out my duties at high standards. Possess strong leadership and communication skills and keen to pursue a
 career in Professional Services as per my qualifications`;
@@ -56,7 +56,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "KING GEORGE IV Street, Addis Ababa, Ethiopia ",
+  address: "KING GEORGE VI Street, Addis Ababa, Ethiopia ",
   phoneNo: "+251909551265 ",
   email: "kidusm3l@gmail.com",
 };
