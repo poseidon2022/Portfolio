@@ -1,5 +1,5 @@
-import project1 from '../asset/Online mar.png'
-import project2 from '../asset/garden control.png'
+import project1 from '../asset/computer vision.jpg'
+import project2 from '../asset/branch predictor.png'
 import project3 from '../asset/comp_arch.png'
 
 
@@ -12,26 +12,35 @@ export const ABOUT_TEXT = `I am a dedicated and versatile computer engineer with
 
 export const EXPERIENCES = [
   {
-    year: "06/2023 - Present",
-    role: "International Service Directorship of Rotaract club of Lewet",
-    company: "Rotaract Ethiopia.",
-    description: `Playing a crucial role in facilitating collaborations with other Rotaract clubs around the globe`,
+    year: "01/2025 - 05/2025",
+    role: "Project Manager and Backend Developer",
+    company: "Weyratech.",
+    description: `Led a cross-functional team of 5 developers in building a talent-employer matchmaking platform from the ground up.`,
   },
   {
-    year: "04/2023 - Present",
-    role: "AI Engineering Intern",
-    company: "Minnovation",
-    description: `AI Engineering Intern working to bring about a positive change in my community.`
+    year: "10/2024 - 04/2025",
+    role: "Backend Engineering Intern",
+    company: "Mereb Technologies",
+    description: `Collaborated with a team of 4 to develop an application tracking system projected to reduce recruitment
+processing time by more than 30%`
   },
   {
-    year: "08/2023 - 11/2023",
-    role: "Millennium fellow of 2023, Emerging Technologist",
-    company: "Millennium Campus Network",
-    description: `Millennium Fellow of 2023 and worked on one of United Nations’ SDGs, Education and served as an Emerging Technologist for the Millennium Fellowship class of 2023`
+    year: "10/2024 - 01/2025",
+    role: "HPC Management and Maintenance Intern ",
+    company: "Addis Ababa Institute of Technology",
+    description: `Managing the reliability and performance of a cluster of 8 NVIDIA DGX-1 servers, enabling 5 researchers to
+efficiently curate, label, document, and store datasets for high-impact AI research projects.`
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Evidence-Based Static Branch Predictor",
+    image: project2,
+    description:
+      "Leveraged GNNs to capture complex program execution patterns, achieving a 23% average miss rate for hard-to-predict branches, significantly outperforming traditional heuristic-based predictors",
+    technologies: ["C++", "LLVM IR", "Python", "PinTool", "Pytorch Geometric"],
+  },
   {
     title: "SAP Processor Design",
     image: project3,
@@ -40,18 +49,11 @@ export const PROJECTS = [
     technologies: ["Proteus"],
   },
   {
-    title: "Automatic Garden Control",
-    image: project2,
-    description:
-      "A simple garden automation system with LPC2438 core microprocessor and various other modules.",
-    technologies: ["Proteus", "C++", "IAR Workbench"],
-  },
-  {
-    title: "E-Commerce Website",
+    title: "AI Virtual Mouse Using OpenCV",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MySQL"],
+      "Developed a virtual mouse system powered by computer vision, enabling cursor control, click, and scroll functionalities using hand gestures and eliminating the need for physical interaction",
+    technologies: ["Python", "OpenCV", "MediaPipe", "Node.js", "MySQL"],
   }
 ];
 
