@@ -80,7 +80,7 @@ export default function Projects() {
                         <h6 className="text-xl font-semibold text-white mb-2">{project.title}</h6>
                         <div className="w-12 h-px bg-gradient-to-r from-neutral-500 to-transparent"></div>
                       </div>
-  
+
                       {/* Project Description */}
                       <div className="relative">
                         <div className="absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-neutral-600 via-neutral-500 to-neutral-600 opacity-30 rounded-full"></div>
@@ -88,7 +88,7 @@ export default function Projects() {
                           {project.description}
                         </p>
                       </div>
-  
+
                       {/* Technologies */}
                       <div className="space-y-3 pt-2">
                         <div className="flex items-center gap-2">
@@ -106,8 +106,38 @@ export default function Projects() {
                           ))}
                         </div>
                       </div>
+
+                      {/* Project Link */}
+                      <div className="pt-4 pl-4">
+                        <a
+                          href={project.links}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg
+                            bg-gradient-to-r from-purple-600/60 to-purple-500/60
+                            text-xs font-semibold text-white border border-purple-400/40
+                            hover:from-purple-600 hover:to-purple-500
+                            hover:shadow-md hover:shadow-purple-500/20 transition-all"
+                        >
+                          View Project
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-3 w-3"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M17 8l4 4m0 0l-4 4m4-4H3"
+                            />
+                          </svg>
+                        </a>
+                      </div>
                     </motion.div>
-  
+
                     {/* Card accent */}
                     <div className="absolute top-4 right-4 w-6 h-6 bg-gradient-to-br from-neutral-600/20 to-neutral-700/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>

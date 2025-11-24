@@ -5,6 +5,8 @@ import { SiMongodb } from "react-icons/si"
 import { DiMysql } from "react-icons/di"
 import { DiJava } from "react-icons/di"
 import { DiPython } from "react-icons/di"
+import {RiCpuFill} from "react-icons/ri"
+import { VscFileCode } from "react-icons/vsc";
 import {SiCplusplus} from "react-icons/si"
 import {motion} from "framer-motion"
 
@@ -75,7 +77,10 @@ export default function Technologies() {
             <motion.div variants={iconVariants(2.4)} initial="initial" animate="animate" className="group relative">
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-transparent to-cyan-400/5 rounded-3xl blur-xl"></div>
               <div className="relative bg-gradient-to-br from-neutral-900/80 to-neutral-800/80 backdrop-blur-sm rounded-2xl border border-neutral-700/50 p-6 transition-all duration-300 group-hover:border-cyan-400/30 group-hover:shadow-lg group-hover:shadow-cyan-400/10">
-                <RiReactjsFill className="text-7xl text-cyan-400 mx-auto" />
+                <RiCpuFill className="text-7xl text-cyan-400 mx-auto" />
+                <p className="text-center text-cyan-300 font-medium tracking-wide drop-shadow-[0_0_6px_rgba(34,211,238,0.35)]">
+                  SystemVerilog
+                </p>
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/5 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             </motion.div>

@@ -3,19 +3,21 @@ import project2 from '../asset/branch predictor.png'
 import project3 from '../asset/comp_arch.png'
 
 
-export const HERO_CONTENT = `An Electrical and Computer Engineering graduate from Addis Ababa University with strong academic standing.
-A highly motivated enthusiast and a conscientious team worker who understands the importance of carrying
-out my duties at high standards. Possess strong leadership and communication skills and keen to pursue a
-career in Professional Services as per my qualifications`;
+export const HERO_CONTENT = `Aspiring Computer Science and Engineering Ph.D. student at UofM with a strong foundation in computer architecture and a
+passion for advancing the integration of machine learning in hardware design and optimization. Seeking
+opportunities to explore innovative solutions at the intersection of efficient computation, artificial intelligence, and
+system-level performance. Driven to contribute to cutting-edge research that bridges theoretical advancements
+with practical applications in computational systems.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile computer engineer with a passion for creating efficient and user-friendly solutions. I have worked with a variety of technologies, including React, Python, C++, Node.js, MySQL, and MongoDB. My journey in computer engineering began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active and exploring new technologies.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile computer engineer currently working as a Graduate Student Research Assistant focusing on computer and memory architectures. My work centers on bridging the gap between modern AI workloads and efficient hardware execution, exploring how specialized architectures and accelerators can unlock new performance frontiers.
+I have a strong foundation in low-level programming, including SystemVerilog and C++, and a deep passion for computer architecture, hardware design, and performance optimization. I thrive in collaborative, research-driven environments and enjoy solving complex, multidisciplinary problems. Outside of work, I stay active and continuously explore emerging technologies that inspire new ways to improve computational efficiency and system design.`;
 
 export const EXPERIENCES = [
   {
-    year: "01/2025 - 05/2025",
-    role: "Project Manager and Backend Developer",
-    company: "Weyratech.",
-    description: `Led a cross-functional team of 5 developers in building a talent-employer matchmaking platform from the ground up.`,
+    year: "08/2025 - present",
+    role: "Graduate Student Research Assistant",
+    company: "University of Michigan, Computer Science and Engineering Department",
+    description: `Conduct research on specialized hardware accelerators for AI workloads, focusing on improving performance, energy efficiency, and scalability.`,
   },
   {
     year: "10/2024 - 04/2025",
@@ -40,6 +42,7 @@ export const PROJECTS = [
     description:
       "Leveraged GNNs to capture complex program execution patterns, achieving a 23% average miss rate for hard-to-predict branches, significantly outperforming traditional heuristic-based predictors",
     technologies: ["C++", "LLVM IR", "Python", "PinTool", "Pytorch Geometric"],
+    links: "https://github.com/poseidon2022/EBSBP-Using-GNNs",
   },
   {
     title: "SAP Processor Design",
@@ -47,6 +50,7 @@ export const PROJECTS = [
     description:
       "A simple computer processor based on the 8086 architecture and can perform basic arithmetic and logical operations.",
     technologies: ["Proteus"],
+    links: "https://github.com/poseidon2022/Processor_Design"
   },
   {
     title: "AI Virtual Mouse Using OpenCV",
@@ -54,11 +58,12 @@ export const PROJECTS = [
     description:
       "Developed a virtual mouse system powered by computer vision, enabling cursor control, click, and scroll functionalities using hand gestures and eliminating the need for physical interaction",
     technologies: ["Python", "OpenCV", "MediaPipe", "Node.js", "MySQL"],
+    links: "https://github.com/poseidon2022/AI-Virtual-Mouse",
   }
 ];
 
 export const CONTACT = {
-  address: "KING GEORGE VI Street, Addis Ababa, Ethiopia ",
-  phoneNo: "+251909551265 ",
+  address: "1757 Cram Circle, Ann Arbor, MI 48105",
+  phoneNo: "(734) 972-7114",
   email: "kidusm3l@gmail.com",
 };
